@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me - Mohammad Iqbal Bariki Irfanto</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <style>
+        /* Full-height layout with flexbox to push footer to bottom */
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1; /* This makes the content area take up all remaining space */
+        }
+
+        footer {
+            flex-shrink: 0; /* Ensures footer stays at the bottom */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Iqbal Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5 bg-light text-center content">
+        <div class="container">
+            <div class="mt-2">
+                <img src="iqbalirf.jpg" alt="Profile Picture" class="img-fluid rounded" style="width: 200px;">
+            </div>
+            <h2 class="mb-4 ">About Me</h2>
+            <p class="lead">
+                I am an undergraduate in computer engineering with a passion for technology and exploring new things. 
+                My interest lies in developing innovative web solutions using modern technologies. 
+                I love experimenting with new frameworks and building projects that challenge me to learn and grow.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-white bg-dark p-3">
+        <p>Mohammad Iqbal Bariki Irfanto - Universitas Qomaruddin</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
